@@ -1,57 +1,111 @@
-body {
+/* Reset */
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #111;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
     color: white;
     text-align: center;
 }
 
+/* Header */
 header {
     background: black;
-    padding: 20px;
+    padding: 25px 0;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 40px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 6px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+nav {
+    margin-top: 15px;
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 20px;
     color: white;
     text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
 }
 
+nav a:hover {
+    color: red;
+}
+
+/* Hero Section */
 .hero {
-    padding: 100px 20px;
-    background: linear-gradient(to right, #000000, #333333);
+    padding: 150px 20px;
+    background: linear-gradient(135deg, #000000, #1c1c1c);
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.8;
 }
 
 button {
-    padding: 12px 25px;
+    padding: 15px 40px;
     background: red;
     border: none;
     color: white;
-    cursor: pointer;
+    font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+button:hover {
+    background: darkred;
+    transform: scale(1.05);
+}
+
+/* Products */
 .products {
-    padding: 60px 20px;
+    padding: 100px 20px;
+}
+
+.products h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
 }
 
 .card {
-    background: #222;
-    margin: 15px auto;
-    padding: 20px;
-    width: 200px;
-    border-radius: 10px;
+    background: #1a1a1a;
+    margin: 20px auto;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    transition: 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-10px);
+    background: #222;
+}
+
+/* Footer */
 footer {
     background: black;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 30px;
+    font-size: 14px;
+    opacity: 0.7;
 }
-
