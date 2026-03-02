@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(to right, #000000, #333333);
+}
+
+button {
+    padding: 12px 25px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.products {
+    padding: 60px 20px;
+}
+
+.card {
+    background: #222;
+    margin: 15px auto;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    margin-top: 40px;
+}
